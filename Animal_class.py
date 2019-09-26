@@ -2,7 +2,7 @@ class Animal():
 # a class the blueprint for making instances
     # Characteristics - instances refer to characteristics
 
-    def __init__(self, name, colour, eyes =2): #runs only once when you initialise an object. Default at end.
+    def __init__(self, name, colour, eyes=2): #runs only once when you initialise an object. Default at end.
         self.name = name
         self.number_eyes = eyes
         self.alive = True
